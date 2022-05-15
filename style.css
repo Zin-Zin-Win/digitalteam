@@ -1,0 +1,156 @@
+@import 'bootstrap/css/bootstrap.min.css';
+@import 'animate.min.css';
+.btn-digital {
+  background-color: #00c6d7;
+  color: white;
+  border-width: 4px;
+  border-radius: 0;
+  padding: 12px 42px;
+}
+.btn-digital:hover {
+  background: transparent;
+  border-color: white;
+  color: white;
+}
+
+.btn-digital-invert {
+  background-color: transparent;
+  color: white;
+  border-radius: 0;
+  border-color: white;
+  border-width: 4px;
+  padding: 12px 42px;
+}
+.btn-digital-invert:hover {
+  background: #00c6d7;
+  border-color: transparent;
+}
+
+.btn-digital-outline {
+  background-color: #00c6d7;
+  color: white;
+  border-width: 4px;
+  border-radius: 0;
+  padding: 12px 42px;
+}
+.btn-digital-outline:hover {
+  background: transparent;
+  border-color: #00c6d7;
+  color: #00c6d7;
+}
+
+.hero {
+  height: 100vh;
+  background: url(images/home-bg-slideshow1.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+.hero-content {
+  text-align: center;
+}
+.hero-content h1, .hero-content h4 {
+  color: white;
+}
+.hero-content h4 {
+  font-size: 14px;
+}
+.hero-content h1 {
+  font-size: 40px;
+}
+.hero-content hr {
+  width: 200px;
+  border-color: #cccccc;
+}
+
+nav .nav-item {
+  padding: 0 4px;
+}
+nav .nav-item a {
+  text-transform: uppercase;
+  color: white !important;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+}
+nav .nav-item a:hover {
+  color: #00c6d7 !important;
+}
+nav .active a {
+  color: #00c6d7 !important;
+}
+
+.logo a {
+  font-size: 28px;
+  color: #00c6d7 !important;
+  font-weight: 500;
+}
+
+.title-no {
+  font-size: 56px;
+  color: #00c6d7;
+}
+
+.session-title {
+  text-align: center;
+}
+
+.title-hr {
+  width: 180px;
+  border-color: #cccccc;
+}
+
+.work, .about, .team, .portfolio, .pricing, .contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.work .col:hover {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.about {
+  background: #3B3B3B;
+  color: white;
+}
+
+.team-member {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member:hover {
+  opacity: 1;
+}
+
+.portfolio {
+  background: #f6f6f6;
+}
+
+.contact {
+  background: url("images/contact-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.contact input, .contact textarea {
+  border-radius: 0;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

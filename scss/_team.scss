@@ -1,0 +1,21 @@
+.team-member{
+    position: absolute;
+    background: rgba(00,00,00,0.6);
+    color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition: all 0.4s ease-in-out;
+}
+
+.team-member:hover{
+    opacity: 1;
+}

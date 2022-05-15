@@ -1,0 +1,52 @@
+.hero{
+    height: 100vh;
+    background: url(images/home-bg-slideshow1.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+.hero-content{
+    text-align: center;
+    h1,h4{
+    color: white;
+    }
+    h4{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    hr{
+        width: 200px;
+        border-color: #cccccc;
+    }
+}
+
+nav{
+    .nav-item{
+        padding: 0 4px;
+        a{
+            text-transform: uppercase;
+            color: white !important;
+            font-weight: 500;
+            transition: all 0.4s ease-in-out;
+        }
+        a:hover{
+            color: $primary-color !important;
+        }
+    }
+    .active{
+        a{
+            color: $primary-color !important;
+        }
+    }
+}
+
+.logo{
+    a{
+        font-size: 28px;
+        color: $primary-color !important;
+        font-weight: 500;
+    }
+}
+
+

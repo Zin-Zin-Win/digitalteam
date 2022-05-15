@@ -1,0 +1,39 @@
+$primary-color: #00c6d7;
+.btn-digital{
+    background-color: $primary-color;
+    color: white;
+    border-width: 4px;
+    border-radius: 0;
+    padding: 12px 42px;
+    &:hover{
+        background: transparent;
+        border-color: white;
+        color: white;
+    }
+}
+
+.btn-digital-invert{
+    background-color: transparent;   
+    color: white; 
+    border-radius: 0;
+    border-color: white;
+    border-width: 4px;
+    padding: 12px 42px;
+    &:hover{
+        background: $primary-color;
+        border-color: transparent;
+    }
+}
+
+.btn-digital-outline{
+    background-color: $primary-color;
+    color: white;
+    border-width: 4px;
+    border-radius: 0;
+    padding: 12px 42px;
+    &:hover{
+        background: transparent;
+        border-color: $primary-color;
+        color: $primary-color;
+    }
+}
