@@ -1,5 +1,9 @@
 @import 'bootstrap/css/bootstrap.min.css';
 @import 'animate.min.css';
+
+html {
+  scroll-behavior: smooth;
+}
 .btn-digital {
   background-color: #00c6d7;
   color: white;
